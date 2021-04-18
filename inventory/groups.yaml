@@ -1,0 +1,21 @@
+---
+Core_P:
+  platform: iosxr
+  connection_options:
+    scrapli:
+      platform: cisco_iosxr
+      port: 22
+      extras:
+        ssh_config_file: True
+        auth_strict_key: False
+
+
+Service_PE:
+  platform: iosxr
+  connection_options:
+    scrapli:
+      platform: cisco_iosxr
+      port: 22
+      extras:
+        ssh_config_file: True
+        auth_strict_key: False
