@@ -1,5 +1,5 @@
 
-####################################Get Command ####################################
+#################################### {Netmiko} Get Command ####################################
 # from nornir import InitNornir
 # from nornir_netmiko.tasks import netmiko_send_command, netmiko_send_config
 # from nornir_utils.plugins.functions import print_result
@@ -11,7 +11,7 @@
 # result = r2.run(netmiko_send_command, command_string="show ip int br")#
 # print_result(result)
 
-####################################push Command ####################################
+#################################### {Netmiko} push Command ####################################
 
 
 # from nornir import InitNornir
@@ -31,7 +31,7 @@
 # result = nornir.run(netmiko_send_config, config_commands=description_config)
 # print_result(result)
 
-#################################### Napalam Command ####################################
+#################################### {Napalam} Command ####################################
 
 #
 # from nornir import InitNornir
@@ -44,7 +44,7 @@
 # print_result(result)
 
 
-#################################### Scrapli Command ####################################
+#################################### {Scrapli} Command ####################################
 
 # from nornir import InitNornir
 # from nornir_scrapli.tasks import send_command
